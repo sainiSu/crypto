@@ -75,4 +75,8 @@ websocket used for real time updatation.
    git clone https://github.com/sainiSu/crypto.git
    cd "project name"
    npm run dev
+
+   ## vercel demo
+
+   https://crypto-ashen-phi.vercel.app/
  
