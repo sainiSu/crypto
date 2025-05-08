@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.crypto-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.crypto-table th,
+.crypto-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.neutral {
+  color: #555;
+}
+.crypto-table th {
+  background: #f2f2f2;
+}
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+.neutral {
+  color: #555;
+}
+
+.crypto-chart{
+  width: 60px;
+  height: 30px;
+  margin: 20px 0;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .crypto-table th, .crypto-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+  .crypto-table {
+    font-size: 14px;
+  }
